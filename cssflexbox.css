@@ -1,0 +1,30 @@
+.outerlayer{
+  display: flex;
+  border: 2px dotted black;
+  /* align-items: center; aligns all the items inside it into center vertically */
+  flex-direction: row;  /*can be set in terms of row or in column*/
+  /* justify-content: center;  horizontally we can allign items */
+  height: 150px;
+  /* flex-wrap: wrap; */
+  /* flex-flow: column wrap; */
+
+}
+
+
+.inner{
+   background-color: pink;
+   margin:5px;
+   border: 1px solid red;
+   width: 70px;
+   height: 22px;
+  
+}
+
+.item4{
+    flex-grow:1;
+   
+  }
+.item1{
+  order: 1;
+ 
+}
