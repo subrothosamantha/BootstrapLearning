@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container1 {
+  background-color: gray;
+}
+
+li:hover {
+  color: red;
+}
+
+.long-para:hover {
+  color: purple;
+}
+
+.short-para:hover {
+  color: brown;
+}
+/*# sourceMappingURL=myworld.css.map */

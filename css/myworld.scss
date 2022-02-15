@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$hover-color : red;
+
+
+
+
+.container1{
+    background-color: gray;
+
+}
+
+li{
+    
+    &:hover{
+        color: $hover-color;
+    }
+
+
+
+}
+
+.long-para{
+    &:hover{
+        color: purple;
+    }
+}
+
+.short-para{
+    &:hover{
+        color: brown;
+    }
+}
